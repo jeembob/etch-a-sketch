@@ -1,0 +1,26 @@
+body {
+    max-height: 50vh;
+}
+
+#controls {
+    display: flex;
+}
+
+.gameBoard {
+    padding: 15px;
+
+}
+
+.row {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex: 1;
+}
+
+.tile {
+    border: 1px solid black;
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    opacity: 0;
+    background-color: black;
+}
